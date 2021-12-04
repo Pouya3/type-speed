@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="setting">
+        <h4>Difficulyt:</h4>
+        <select name="opt" id="opt">
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select>
+    </div>
+
+    <div id="container">
+        <div id="failed">
+            <h1>Time Ran Out</h1>
+            <p>your score is 0</p>
+            <input type="button" id="Reload" value="Reload">
+        </div>
+
+        <div id="game">
+            <div id="header"></div>
+            <div id="score-time">
+                <p>Time Left: </p>
+                <p>Score: </p>
+            </div>
+            <aspan>Type the following:</aspan>
+            <h2 id="word">good</h2>
+            <input type="text" placeholder="type the word hear...">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
+

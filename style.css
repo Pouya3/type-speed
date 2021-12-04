@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    background-color:#2c3e50;
+    flex-direction: column;
+}
+
+
+#failed{
+    display: none;
+}
+
+#setting{
+    background-color: rgba(1, 1, 1, 0.3);
+    top: 0;
+    width: 100%;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 10px 0px;
+}
+
+select{
+    outline: 0;
+    padding:2px 5px;
+}
+
+#setting h4{
+    margin-right: 30px;
+    color: rgb(181, 234, 255);
+}
